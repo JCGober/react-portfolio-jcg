@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Bio from './bio';
+import Navbar from './navbar'
+import Portfolio from './portfolio-work'
+import Footer from './footer'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Navbar />
+    <Bio />
+    <Portfolio />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
