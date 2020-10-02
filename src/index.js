@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Bio from './bio';
 import Navbar from './navbar'
+import Contact from './contact'
 import Portfolio from './portfolio-work'
 import Footer from './footer'
 import * as serviceWorker from './serviceWorker';
@@ -11,6 +12,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Navbar />
     <Bio />
+    <Contact />
     <Portfolio />
     <Footer />
   </React.StrictMode>,

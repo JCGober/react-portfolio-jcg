@@ -6,7 +6,7 @@ function Portfolio() {
     return (
     <div className="App">
          <hr/>
-        <h3><strong>Coding Work</strong></h3>
+        <h1>Coding Work</h1>
         <hr />
         <h4>Jared's Burger App: <a href="https://aqueous-temple-86702.herokuapp.com/">Heroku Deployed!</a></h4>
         <h4>Random Pasword Generator: <a href="https://jcgober.github.io/password-generator-jcg/">Click here!</a></h4>
